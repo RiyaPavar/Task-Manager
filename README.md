@@ -55,8 +55,8 @@ npm install
 4. Start the project:
 npm run dev
 
-5. Open browser and visit:
-http://localhost:3000
+5. Live Link and visit:
+[http://localhost:3000](https://riya-pavar-task-manage.netlify.app/login)
 
 Project Author:
 Riya Pavar
