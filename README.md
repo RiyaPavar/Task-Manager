@@ -1,28 +1,65 @@
-# Welcome to Antigravity!
+TASK MANAGER PROJECT
 
-Welcome to your new developer home! Your Firebase Studio project has been successfully migrated to Antigravity.
+Project Description:
+This is a full stack Task Manager web application developed to manage daily tasks efficiently. Users can add, update, delete, and organize tasks easily through a responsive and user-friendly interface.
 
-Antigravity is our next-generation, agent-first IDE designed for high-velocity, autonomous development. Because Antigravity runs locally on your machine, you now have access to powerful local workflows and fully integrated AI editing capabilities that go beyond a cloud-based web IDE.
+Features:
+- Add new tasks
+- Edit existing tasks
+- Delete tasks
+- Mark tasks as completed
+- Responsive design
+- User-friendly interface
+- Secure backend integration
+- Database connectivity
 
-## Getting Started
-- **Run Locally**: Use the **Run and Debug** menu on the left sidebar to start your local development server.
-  - Or in a terminal run `npm run dev` and visit `http://localhost:9002`.
-- **Deploy**: You can deploy your changes to Firebase App Hosting by using the integrated terminal and standard Firebase CLI commands, just as you did in Firebase Studio.
-- **Cleanup**: Cleanup unused artifacts with the @cleanup workflow.
+Technologies Used:
 
-Enjoy the next era of AI-driven development!
+Frontend:
+- HTML
+- CSS
+- JavaScript
+- TypeScript
+- React.js
+- Next.js
+- Tailwind CSS
 
-File any bugs at https://github.com/firebase/firebase-tools/issues
+Backend:
+- Node.js
+- Express.js
 
-**Firebase Studio Export Date:** 2026-05-10
+Database:
+- MongoDB
+- Mongoose
 
+Tools & Platforms:
+- Git
+- GitHub
+- VS Code
+- MongoDB Atlas
+- Postman
+- Netlify / Vercel
 
----
+Purpose of the Project:
+The purpose of this project is to help users manage their daily work efficiently and improve productivity using modern full stack web development technologies.
 
-## Previous README.md contents:
+How to Run the Project:
 
-# Firebase Studio
+1. Install Node.js
 
-This is a NextJS starter in Firebase Studio.
+2. Open terminal in project folder
 
-To get started, take a look at src/app/page.tsx.
+3. Run:
+npm install
+
+4. Start the project:
+npm run dev
+
+5. Open browser and visit:
+http://localhost:3000
+
+Project Author:
+Riya Pavar
+
+GitHub Repository:
+https://github.com/RiyaPavar/Task-Manager
