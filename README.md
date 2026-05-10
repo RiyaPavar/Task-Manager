@@ -56,7 +56,7 @@ npm install
 npm run dev
 
 5. Live Link and visit:
-[http://localhost:3000](https://riya-pavar-task-manage.netlify.app/login)
+(https://riya-pavar-task-manage.netlify.app/login)
 
 Project Author:
 Riya Pavar
