@@ -1,0 +1,133 @@
+{
+  "users": [
+    {
+      "id": "u1",
+      "name": "Team Alpha",
+      "email": "alpha@teamsync.com",
+      "avatarUrl": "https://picsum.photos/seed/teamalpha/100/100"
+    },
+    {
+      "id": "u2",
+      "name": "Team Bravo",
+      "email": "bravo@teamsync.com",
+      "avatarUrl": "https://picsum.photos/seed/teambravo/100/100"
+    },
+    {
+      "id": "u3",
+      "name": "Team Charlie",
+      "email": "charlie@teamsync.com",
+      "avatarUrl": "https://picsum.photos/seed/teamcharlie/100/100"
+    },
+    {
+      "id": "u1778401651674",
+      "name": "Riyapawar1211",
+      "email": "riyapawar1211@gmail.com",
+      "avatarUrl": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=600&auto=format&fit=crop"
+    }
+  ],
+  "projects": [
+    {
+      "id": "p1",
+      "title": "Website Redesign",
+      "description": "Modernizing our main landing page and dashboard.",
+      "ownerId": "u1",
+      "createdAt": "2026-05-10T06:52:13.575Z",
+      "members": [
+        {
+          "userId": "u1",
+          "role": "Admin"
+        },
+        {
+          "userId": "u2",
+          "role": "Member"
+        }
+      ]
+    },
+    {
+      "id": "p2",
+      "title": "Mobile App Launch",
+      "description": "Coordinating the release of our iOS and Android applications.",
+      "ownerId": "u2",
+      "createdAt": "2026-05-10T06:52:13.575Z",
+      "members": [
+        {
+          "userId": "u2",
+          "role": "Admin"
+        },
+        {
+          "userId": "u1",
+          "role": "Member"
+        },
+        {
+          "userId": "u3",
+          "role": "Member"
+        }
+      ]
+    },
+    {
+      "id": "p1778401729495",
+      "title": "AI trip planner",
+      "description": "Mobile app",
+      "ownerId": "u1",
+      "createdAt": "2026-05-10T08:28:49.495Z",
+      "members": [
+        {
+          "userId": "u1",
+          "role": "Admin"
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "id": "t1",
+      "projectId": "p1",
+      "title": "Design high-fidelity mockups",
+      "description": "Create final UI designs in Figma for all breakpoints.",
+      "status": "In Progress",
+      "assignedTo": "u1",
+      "dueDate": "2024-12-01",
+      "createdAt": "2026-05-10T06:52:13.575Z"
+    },
+    {
+      "id": "t2",
+      "projectId": "p1",
+      "title": "Setup production database",
+      "description": "Configure the cloud database and migration scripts.",
+      "status": "To Do",
+      "assignedTo": "u2",
+      "dueDate": "2024-11-20",
+      "createdAt": "2026-05-10T06:52:13.575Z"
+    },
+    {
+      "id": "t3",
+      "projectId": "p2",
+      "title": "App Store Submission",
+      "description": "Prepare metadata and assets for submission.",
+      "status": "Done",
+      "assignedTo": "u2",
+      "dueDate": "2024-11-15",
+      "createdAt": "2026-05-10T06:52:13.575Z"
+    },
+    {
+      "id": "t1778401200224",
+      "projectId": "p1",
+      "title": "web development",
+      "description": "Description",
+      "status": "To Do",
+      "assignedTo": "u1",
+      "dueDate": "2026-05-10",
+      "createdAt": "2026-05-10T08:20:00.224Z"
+    },
+    {
+      "id": "t1778401779433",
+      "projectId": "p1",
+      "title": "frontend developoment",
+      "description": "Description",
+      "status": "To Do",
+      "assignedTo": "u1",
+      "dueDate": "2026-05-10",
+      "createdAt": "2026-05-10T08:29:39.433Z"
+    }
+  ]
+}
